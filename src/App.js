@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
   <div>
+    <div>
     <body className="body">
     <nav className = "Nav">
   <div className = "Header">
@@ -11,6 +12,7 @@ function App() {
   <div>
     <br></br>
   <h1 className = "Title">Jonathan Friedberg</h1>
+  <br></br>
 </div>
  <br></br>
 </div>
@@ -46,13 +48,19 @@ function App() {
     </div>
     </body>
    <nav className="footer"> 
+   <div>
+     
    <h2 className="contactEmail">friedberg_jon@hotmail.com
   ​</h2>
+  </div>
   <h2 className="contactNumber">(802) 829-7252
 ​ </h2>
+<div>
 <h2 className="LinkedInLink">www.linkedin.com/in/jonfriedberg
 ​ </h2>
+</div>
      </nav>
+     </div>
     </div>
   );
 }

@@ -108,24 +108,39 @@
 .footer{
   display:flex;
   justify-content: center;
-  margin-top: 2%
+  margin-top: .5%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column
+
+
 
  }
  
 .contactEmail{
   color:blue;
-  margin-left:7%;
-  margin-right:7%;
+  font-size:1.2em;
+  display: flex;
+  margin-left:43%;
+  justify-content: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contactNumber{
   color:blue;
+  display: flex;
+  margin-left:43%;
+  justify-content: left;
+  font-size:1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .LinkedInLink{
+  display: flex;
+  margin-left:43%;
+  justify-content: left;
   color:blue;
-  margin-left:7%;
-  margin-right:7%;
+  font-size:1.2em;
+
+
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
