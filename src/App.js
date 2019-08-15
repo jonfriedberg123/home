@@ -4,61 +4,38 @@ import illustrations from './Components/illustrations'
 import graphicDesign from './Components/graphicDesign'
 import about from './Components/about'
 import {BrowserRouter as Router, Route, Link, Switch, Redirect} from 'react-router-dom';
-import WebDevelopment from './Components/webDevelopment';
+import webDevelopment from './Components/webDevelopment';
 
 function App() {
   return (
   <div>
     <div>
     <body className="body">
-    <div className = "HeaderLinks">
-      
-    </div>
-    <nav className = "Nav">
-             <Router>
+   
+          <Router>
+          <nav className = "Nav">
+               <div className = "HeaderLinks">
                 <Link to='/about'>About</Link>
                 <Link to='/web_development'>Web Development</Link>
                 <Link to='/illustrations'>Illustrations</Link>
                 <Link to='/graphic_design'>Graphic Design</Link>
-              
+                </div>
+                </nav>  
+                <div className = "Name">
+                <h1 className = "Title">Jonathan Friedberg</h1>
+               </div>
+          
+                <div className ="Components">
                 <Switch>
                     <Route exact path='/about' component={about}/>    
-                    <Route exact path='/web_development' component={WebDevelopment}/> 
+                    <Route exact path='/web_development' component={webDevelopment}/> 
                     <Route exact path='/illustrations' component={illustrations}/>      
-                    <Route exact path='/graphic_design' component={graphicDesign}/>     
-                               
+                    <Route exact path='/graphic_design' component={graphicDesign}/>                      
                 </Switch>
+                </div>
             </Router>
-  <div className = "Header">
-    
-  <div>
-    <br></br>
-  <h1 className = "Title">Jonathan Friedberg</h1>
-  <br></br>
-</div>
- <br></br>
-</div>
-    </nav>
-   
-    <div className="Links">
-      <ul>
-     <div className="LinkOne">
-     <li><a target="_blank" href="https://giftme-hjm.herokuapp.com/">"Wish List App" using React and Express</a>
-     </li> 
-     </div>
-     <div className="LinkTwo">
-     {/* https://stackoverflow.com/questions/42914666/react-router-external-link */}
-     <li><a target="_blank" href="https://amazing-rings.surge.sh">Currency Converter using React</a>
-     </li>
-     </div>
-     <div className="LinkThree">
-     <li><a target="_blank" href="https://pages.git.generalassemb.ly/friedbergjon/frogger/">"Frogger- The Game" made with Vanila Javascript</a>
-     </li>
-     </div>
-     </ul>
-    
-    </div>
-    </body>
+           
+            </body>
    <nav className="footer"> 
    <div>
      

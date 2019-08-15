@@ -5,23 +5,38 @@
 
 }
 
-
+.Components{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+  
+}
 
 .Nav {
  
   margin: 0 auto;
-  display: flex;
+
+padding-top:2%;
+  
 
   
 }
 .Header {
-  margin: 0 auto;
+
   margin-top: 3%;
+  display: flex;
+  justify-content: center;
+
+}
+.Name {
+  text-align: center;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .Title {
-  margin: 0 auto;
+  text-align: center;
   margin-top: 3%;
   font-size: 2.5em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -74,8 +89,14 @@
   font-size:1em;
   font-weight:bold;
 }
+.HeaderLinks {
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-around;;
+}
+
+
 .Link{
- 
   margin: 0 auto;
   margin-top: 3%;
   display: flex;
