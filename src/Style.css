@@ -163,7 +163,7 @@ padding-top:2%;
   flex-direction: column;
   position:fixed, absolute;
   margin-bottom: -1em;
-  margin-left: 40%;
+  margin-left: 43%;
   left:0;
   bottom:0;
   right:0;
@@ -183,20 +183,20 @@ padding-top:2%;
 .contactEmail{
   color:blue;
   position:fixed,absolute;
-  font-size:1.2em;
+  font-size:.8em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contactNumber{
   color:blue;
   position:fixed,absolute;
-  font-size:1.2em;
+  font-size:.8em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .LinkedInLink{
   color:blue;
   position:fixed,absolute;
-  font-size:1.2em;
+  font-size:.8em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
