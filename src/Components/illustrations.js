@@ -1,5 +1,4 @@
 import React, { Component }from 'react';
-import '../Style.css';
 import angel from "../Images/illustrations/angel.gif"
 import gridDrawing from "../Images/illustrations/gridDrawing.gif"
 import icons from "../Images/illustrations/icons.jpg"
