@@ -1,27 +1,50 @@
 
 
 .body{
+  margin: 0 auto;
+  max-height: 95%;
   background-color: black;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
 
 }
-
+.illustrations{
+  margin:0 auto;
+ 
+}
 .Components{
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  
-  
+}
+.carousel {
+  max-height: 20%;
+  margin-top: -1%;
 }
 
+.fixed_img {
+  max-width: 13em;  /* change this to whatever you want */
+    height: auto;
+}
+.fixed_img_graphic_design{
+  max-width: 40em;  /* change this to whatever you want */
+    height: auto;
+}
+.fixed_img_three_d{
+  max-width: 55em;  /* change this to whatever you want */
+    height: auto;
+}
 .Nav {
- 
   margin: 0 auto;
 
 padding-top:2%;
   
-
-  
 }
+  
+
 .Header {
 
   margin-top: 3%;
@@ -92,19 +115,25 @@ padding-top:2%;
 .HeaderLinks {
  margin: 0 auto;
  display: flex;
- justify-content: space-around;;
+ justify-content: space-around;
 }
 
 
-.Link{
+.Links{
   margin: 0 auto;
   margin-top: 3%;
   display: flex;
   justify-content: left;
 }
+
+.webDevLinks{
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
 .LinkOne {
   margin: 0 auto;
-  margin-left:33%;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
@@ -113,7 +142,6 @@ padding-top:2%;
 
 .LinkTwo {
   margin: 0 auto;
-  margin-left:33%;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
@@ -121,24 +149,23 @@ padding-top:2%;
 
 .LinkThree {
   margin: 0 auto;
-  margin-left:33%;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
 }
 
 .footer{
+  
   display:flex;
-  justify-content: center;
-  margin-top: .5%;
-  display:flex;
-  justify-content: center;
-  flex-direction: column
-
-
-
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: -10%;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
  }
- 
+
 .contactEmail{
   color:blue;
   font-size:1.2em;
