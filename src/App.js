@@ -12,7 +12,8 @@ function App() {
   return (
   <div> 
     <MediaQuery query="(min-width: 400px)" query="(max-width: 1000px)" query="(max-height: 1000px)" query="(min-height: 400px)" >
-    <body className="body">
+      <div>
+      <body className="body">
           <Router>
           <nav className = "Nav">
                <div className = "HeaderLinks">
@@ -36,17 +37,19 @@ function App() {
                 </Switch>
                 </div>
             </Router>           
-            </body>    
+            </body> 
+            </div>  
+            <nav className="footer">  
             <div className= "footerDiv">
-   <nav className="footer"> 
+   
    <h2 className="contactEmail">friedberg_jon@hotmail.com
   ​</h2>
  <h2 className="contactNumber">(802) 829-7252
 ​ </h2>
 <h2 className="LinkedInLink">www.linkedin.com/in/jonfriedberg
 ​ </h2>
-     </nav>
      </div>
+     </nav>
      </MediaQuery>
      </div>
   );

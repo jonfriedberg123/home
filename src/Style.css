@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-height: 93%;
   background-color: black;
-  position:fixed;
+  position:fixed, relative;
   top:0;
   left:0;
   bottom:0;
@@ -158,11 +158,12 @@ padding-top:2%;
 }
 
 .footer{
-  
+  margin: 0 auto;
   display:flex;
+  justify-content: center;
   flex-direction: row;
-  position:fixed;
-  margin-bottom: -4em;
+  position:fixed, absolute;
+  margin-bottom: -1em;
   left:0;
   bottom:0;
   right:0;
@@ -172,7 +173,7 @@ padding-top:2%;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  position:fixed,relative;
+  position:fixed,absolute;
   left:0;
   bottom:0;
   right:0;
