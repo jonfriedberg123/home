@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-height: 93%;
   background-color: black;
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   bottom:0;
@@ -130,13 +130,14 @@ padding-top:2%;
   margin-top: 5%;
   display: flex;
   justify-content: center;
+
 }
 .LinkOne {
   margin: 0 auto;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
-  font-size:2em
+  font-size:1.5em
 }
 
 
@@ -145,7 +146,7 @@ padding-top:2%;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
-  font-size:2em
+  font-size:1.5em
 }
 
 .LinkThree {
@@ -153,23 +154,34 @@ padding-top:2%;
   margin-top: 3%;
   display: flex;
   font-weight:bold;
-  font-size:2em
+  font-size:1.5em
 }
 
 .footer{
   
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
-  position:absolute;
+  position:fixed;
+  margin-bottom: -4em;
   left:0;
   bottom:0;
   right:0;
  }
+ 
+.footerDiv{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position:fixed,relative;
+  left:0;
+  bottom:0;
+  right:0;
+}
 
 .contactEmail{
   color:blue;
   font-size:1.2em;
+  margin-right: 2em;
   display: flex;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -183,6 +195,7 @@ padding-top:2%;
 .LinkedInLink{
   display: flex;
   color:blue;
+  margin-left: 2em;
   font-size:1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive';
 import './Style.css';
 import illustrations from './Components/illustrations'
 import threeDModels from './Components/threeDModels'
@@ -10,6 +11,7 @@ import webDevelopment from './Components/webDevelopment';
 function App() {
   return (
   <div> 
+    <MediaQuery query="(min-width: 400px)" query="(max-width: 1000px)" query="(max-height: 1000px)" query="(min-height: 400px)" >
     <body className="body">
           <Router>
           <nav className = "Nav">
@@ -19,7 +21,6 @@ function App() {
                 <Link to='/illustrations'>Illustrations</Link>
                 <Link to='/graphic_design'>Graphic Design</Link>
                 <Link to='/3d_models'>3D Models</Link>
-                <Link to='/sound_design'>Sound Design</Link>
                 </div>
                 </nav>  
                 <div className = "Name">
@@ -46,6 +47,7 @@ function App() {
 ​ </h2>
      </nav>
      </div>
+     </MediaQuery>
      </div>
   );
 }
