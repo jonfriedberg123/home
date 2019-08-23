@@ -29,6 +29,7 @@ function App() {
                </div>         
                 <div className ="Components">
                 <Switch>
+                    <Route exact path='/' component={about}/>   
                     <Route exact path='/about' component={about}/>    
                     <Route exact path='/web_development' component={webDevelopment}/> 
                     <Route exact path='/illustrations' component={illustrations}/>      
@@ -36,7 +37,8 @@ function App() {
                     <Route exact path='/3d_models' component={threeDModels}/>                      
                 </Switch>
                 </div>
-            </Router>           
+            </Router> 
+                      
             </body> 
             </div>  
             <nav className="footer">  
