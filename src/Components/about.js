@@ -5,7 +5,7 @@ import '../Style.css';
 
 function about() {
     return (
-    <div>
+    <div className = "AboutText">
        <div className="AboutParagraph">
      <p className="About">Jon Friedberg moved to New York City in late Fall of 2018. Previously he hearned a Bachelor Degree in Audio Production and pursued a certificate in Animation. For the last 2-3 years, he has been programming on his own and graduated from General Assembly's Software Engineering Program in July of 2019 and continues to improve his skills.</p>
      </div>
