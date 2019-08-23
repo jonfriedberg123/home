@@ -35,7 +35,7 @@ function App() {
                 </Switch>
                 </div>
             </Router>           
-            </body>
+            </body>    
             <div className= "footerDiv">
    <nav className="footer"> 
    <h2 className="contactEmail">friedberg_jon@hotmail.com

@@ -2,7 +2,7 @@
 
 .body{
   margin: 0 auto;
-  max-height: 95%;
+  max-height: 90%;
   background-color: black;
   position:absolute;
   top:0;
@@ -38,8 +38,7 @@
     height: auto;
 }
 .Nav {
-  margin: 0 auto;
-
+margin: 0 auto;
 padding-top:2%;
   
 }
@@ -159,7 +158,6 @@ padding-top:2%;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: -10%;
   position:absolute;
   left:0;
   bottom:0;
@@ -170,26 +168,18 @@ padding-top:2%;
   color:blue;
   font-size:1.2em;
   display: flex;
-  margin-left:43%;
-  justify-content: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contactNumber{
   color:blue;
   display: flex;
-  margin-left:43%;
-  justify-content: left;
   font-size:1.2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .LinkedInLink{
   display: flex;
-  margin-left:43%;
-  justify-content: left;
   color:blue;
   font-size:1.2em;
-
-
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
