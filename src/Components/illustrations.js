@@ -1,4 +1,5 @@
 import React, { Component }from 'react';
+import '../Style.css';
 import angel from "../Images/illustrations/angel.gif"
 import gridDrawing from "../Images/illustrations/gridDrawing.gif"
 import icons from "../Images/illustrations/icons.jpg"
@@ -17,25 +18,25 @@ class Illustrations extends Component {
             <Carousel>
                 
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto"  src={angel}  /> 
+                    <img className="fixed_img" src={angel}  /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto"  src={gridDrawing} /> 
+                    <img className="fixed_img" src={gridDrawing} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto" src={icons} /> 
+                    <img className="fixed_img" src={icons} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto" src={japanesePrint} /> 
+                    <img className="fixed_img" src={japanesePrint} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto" src={nashvillePoster} /> 
+                    <img className="fixed_img" src={nashvillePoster} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto" src={stLouis} /> 
+                    <img className="fixed_img" src={stLouis} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" max-height= "300px" width= "auto" src={vectorDrawing} /> 
+                    <img className="fixed_img" src={vectorDrawing} /> 
                 </div>
             </Carousel>
             </div>
