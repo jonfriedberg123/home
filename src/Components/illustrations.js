@@ -17,25 +17,25 @@ class Illustrations extends Component {
             <Carousel>
                 
                 <div>
-                    <img className="fixed_img" src={angel}  /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto"  src={angel}  /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={gridDrawing} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto"  src={gridDrawing} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={icons} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto" src={icons} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={japanesePrint} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto" src={japanesePrint} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={nashvillePoster} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto" src={nashvillePoster} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={stLouis} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto" src={stLouis} /> 
                 </div>
                 <div>
-                    <img className="fixed_img" src={vectorDrawing} /> 
+                    <img className="fixed_img" max-height= "300px" width= "auto" src={vectorDrawing} /> 
                 </div>
             </Carousel>
             </div>
