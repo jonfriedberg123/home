@@ -11,7 +11,7 @@ function webDevelopment() {
   <br></br>
       <ul>
      <div className="LinkOne">
-     <li><a target="_blank" href="https://giftme-hjm.herokuapp.com/">"Wish List App" using React and Express</a>
+     <li><a target="_blank" href="https://giftme-hjm.herokuapp.com/">"Wish List App" using React and Express - mobile responsive</a>
      </li> 
      </div>
   <br></br>
