@@ -84,6 +84,7 @@ padding-top:2%;
   margin-top: 3%;
   font-size: 1.2em;
   
+  
 }
 
 .About{
@@ -99,10 +100,6 @@ padding-top:2%;
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
-  max-height: 100%;
-  min-height: 45em;
-  max-height: 45em;
-  position:fixed, absolute;
   top:0;
   left:0;
   bottom:0;
@@ -117,7 +114,6 @@ padding-top:2%;
   color: white;
   font-size:1em;
   font-weight:bold;
-  
   top:0;
   left:0;
   bottom:0;
@@ -132,10 +128,6 @@ padding-top:2%;
   color: white;
   font-size:1em;
   font-weight:bold;
-  max-height: 100%;
-  min-height: 45em;
-  max-height: 45em;
-  position:fixed, absolute;
   top:0;
   left:0;
   bottom:0;
