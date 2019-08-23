@@ -38,7 +38,6 @@ function App() {
                 </Switch>
                 </div>
             </Router> 
-                      
             </body> 
             </div>  
             <nav className="footer">  
