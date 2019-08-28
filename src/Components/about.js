@@ -11,7 +11,7 @@ function about() {
      </div>
      <div className="SkillsAndSoftware">
        <h2 className= "SkillsTitle">Skills</h2>
-     <p className="SkillsParagraphText">Full-stack development, Javascript, React, Nodejs, Express, PostgreSQL, R, Python, Ruby on Rails, MongoDB, Computer Science fundamentals, HTML, CSS, Git commands, CSS/React libraries, Algebra, Trigonometry, Calculus, drawing, painting, 3-d modeling, UV unwrapping, storyboarding, photography, Stereo and 5.1 recording, mixing & editing audio, ADR, SFX (Foley, Soft FX, Hard FX), onset recording, dB Ranges for Broadcast Standards, microphone placement, polar patterns, signal flow, live sound reinforcement, soldering, schematic reading
+     <p className="SkillsParagraphText">Full-stack development, Javascript, React, Nodejs, Express, PostgreSQL, R, Python, Ruby on Rails, MongoDB, Computer Science fundamentals, HTML, CSS, Git commands, CSS/React libraries, Algebra, Trigonometry, Calculus, Discrete Mathematics, drawing, painting, 3-d modeling, UV unwrapping, storyboarding, photography, Stereo and 5.1 recording, mixing & editing audio, ADR, SFX (Foley, Soft FX, Hard FX), onset recording, dB Ranges for Broadcast Standards, microphone placement, polar patterns, signal flow, live sound reinforcement, soldering, schematic reading
     </p>
     
       <h2 className= "SoftwareTitle">Software</h2>
