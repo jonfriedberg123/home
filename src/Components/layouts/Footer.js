@@ -29,11 +29,11 @@ function Footer() {
         </ul>
         </div>
          {/* Column 4 */}
-         <div className="col-md-3 col-sm-6">
+        <div className="col-md-3 col-sm-6">
 
         <ul className="list-unstyled ">
-             <li><a href="https://www.facebook.com/jon.friedberg">Facebook</a></li>
-        </ul>
+         <li><a href="https://resume.creddle.io/resume/apcazofr51p">Resume</a></li>
+        </ul>   
         </div>
         </div>
         {/* Footer Bottom */}
