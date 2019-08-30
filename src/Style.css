@@ -20,17 +20,8 @@
 }
 .AboutText{
   margin: 0 auto;
-  max-height: 100%;
-  min-height: 45em;
-  max-height: 45em;
-  position:fixed, absolute;
-  
 }
-.Components{
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
+
 .carousel {
   max-height: 20%;
   margin-top: -1%;
@@ -48,20 +39,8 @@
   max-width: 55em;  /* change this to whatever you want */
     height: auto;
 }
-.Nav {
-margin: 0 auto;
-padding-top:2%;
+
   
-}
-  
-
-.Header {
-
-  margin-top: 3%;
-  display: flex;
-  justify-content: center;
-
-}
 .Name {
   text-align: center;
   margin: 0 auto;
@@ -94,10 +73,6 @@ padding-top:2%;
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
   color: black;
 }
 
@@ -110,10 +85,6 @@ padding-top:2%;
   color: white;
   font-size:1em;
   font-weight:bold;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
   color: black;
 }
 
@@ -126,10 +97,6 @@ padding-top:2%;
   color: white;
   font-size:1em;
   font-weight:bold;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
   color: black;
 }
 
