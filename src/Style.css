@@ -1,17 +1,20 @@
-
-
-.body{
-  margin: 0 auto;
-  max-height: 100%;
-  min-height: 45em;
-  max-height: 45em;
-  
-  background-color: black;
-  position:fixed, absolute;
-  justify-content: center;
-  
-
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(172, 172, 172);
+  --mainLightGrey: rgba(172,172,172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
 }
+
+.navbar-togger:focus {
+  outline: none;
+}
+
+.navbar-togger {
+  border: none
+}
+
+
 .illustrations{
   margin:0 auto;
 }
@@ -21,7 +24,7 @@
   min-height: 45em;
   max-height: 45em;
   position:fixed, absolute;
-
+  
 }
 .Components{
   margin: 0 auto;
@@ -65,16 +68,6 @@ padding-top:2%;
   display: flex;
   justify-content: center;
 }
-.Title {
-  text-align: center;
-  margin-top: 2%;
-  font-size: 2.5em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-}
 
 .AboutParagraph{
   display: flex;
@@ -83,7 +76,7 @@ padding-top:2%;
   margin-right:23%;
   margin-top: 3%;
   font-size: 1.2em;
-  
+  color: black;
   
 }
 
@@ -92,6 +85,7 @@ padding-top:2%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .SkillsAndSoftware{
@@ -104,11 +98,13 @@ padding-top:2%;
   left:0;
   bottom:0;
   right:0;
+  color: black;
 }
 
 .SkillsTitle{
   color: white;
   text-decoration: underline;
+  color: black;
 }
 .SkillsParagraphText{
   color: white;
@@ -118,11 +114,13 @@ padding-top:2%;
   left:0;
   bottom:0;
   right:0;
+  color: black;
 }
 
 .SoftwareTitle{
   color: white;
   text-decoration: underline;
+  color: black;
 }
 .SoftwareParagraphText {
   color: white;
@@ -132,20 +130,11 @@ padding-top:2%;
   left:0;
   bottom:0;
   right:0;
-}
-.HeaderLinks {
- margin: 0 auto;
- display: flex;
- justify-content: space-around;
+  color: black;
 }
 
 
-.Links{
-  margin: 0 auto;
-  margin-top: 3%;
-  display: flex;
-  justify-content: left;
-}
+
 
 .webDevLinks{
   margin: 0 auto;
@@ -177,47 +166,13 @@ padding-top:2%;
   font-size:1.5em
 }
 
-.footer{
+.contact-info{
   margin: 0 auto;
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
-  position:fixed, absolute;
-  margin-bottom: -1em;
-  margin-left: 43%;
-  left:0;
-  bottom:0;
-  right:0;
- }
- 
-.footerDiv{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  position:fixed,absolute;
-  margin-bottom: -1em;
-  left:0;
-  bottom:0;
-  right:0;
-}
-
-.contactEmail{
   color:blue;
-  position:fixed,absolute;
-  font-size:.8em;
+  padding-bottom: 1em;
+  margin-top: -5em;
+  text-align: center;
+  font-size:1em;
+  list-style-type: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.contactNumber{
-  color:blue;
-  position:fixed,absolute;
-  font-size:.8em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.LinkedInLink{
-  color:blue;
-  position:fixed,absolute;
-  font-size:.8em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
 }

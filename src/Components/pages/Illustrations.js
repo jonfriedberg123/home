@@ -1,11 +1,11 @@
 import React, { Component }from 'react';
-import angel from "../Images/illustrations/angel.gif"
-import gridDrawing from "../Images/illustrations/gridDrawing.gif"
-import icons from "../Images/illustrations/icons.jpg"
-import japanesePrint from "../Images/illustrations/japanesePrint.gif"
-import nashvillePoster from "../Images/illustrations/nashvillePoster.gif"
-import stLouis from "../Images/illustrations/stLouis.gif"
-import vectorDrawing from "../Images/illustrations/vectorDrawing.gif"
+import angel from "../../Images/illustrations/angel.gif"
+import gridDrawing from "../../Images/illustrations/gridDrawing.gif"
+import icons from "../../Images/illustrations/icons.jpg"
+import japanesePrint from "../../Images/illustrations/japanesePrint.gif"
+import nashvillePoster from "../../Images/illustrations/nashvillePoster.gif"
+import stLouis from "../../Images/illustrations/stLouis.gif"
+import vectorDrawing from "../../Images/illustrations/vectorDrawing.gif"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
  
