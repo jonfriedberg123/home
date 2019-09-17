@@ -22,7 +22,7 @@ function webDevelopment() {
      </div>
   <br></br>
      <div className="LinkThree">
-     <li><a target="_blank" href="https://github.com/friedbergjon/frogger-game">"Frogger- The Game" made with Vanila Javascript</a>
+     <li><a target="_blank" href="https://github.com/friedbergjon/frogger">"Frogger- The Game" made with Vanila Javascript</a>
      </li>
      </div>
      </ul>
