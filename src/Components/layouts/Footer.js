@@ -51,7 +51,8 @@ function Footer() {
 
 export default Footer;
 
-const FooterContainer = styled.footer`
+const FooterContainer = styled.footer
+`
 .footer-middle { background: var(--mainDark);
     padding-top: 1.5rem;
     color: var(--mainWhite);
@@ -60,6 +61,7 @@ const FooterContainer = styled.footer`
 .footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem; 
+    position:absolute, fixed;
 }
 
 ul li a{

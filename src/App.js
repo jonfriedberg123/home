@@ -10,6 +10,7 @@ import ThreeDModels from './Components/pages/ThreeDModels'
 import GraphicDesign from './Components/pages/GraphicDesign'
 import About from './Components/pages/About'
 import WebDevelopment from './Components/pages/WebDevelopment';
+import Apple from "./Images/threeDObjects/Apple.gif";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
     <br></br>
     <br></br>
     <br></br>
+    <div className="homePagePicture">
+       <img className="fixed_img_graphic_design" src={Apple}/> 
+    </div>
     <Footer />
     </div>
    
