@@ -61,7 +61,6 @@ const FooterContainer = styled.footer
 .footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem; 
-    position:absolute, fixed;
 }
 
 ul li a{
