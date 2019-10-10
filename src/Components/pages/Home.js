@@ -1,5 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Apple from "../../Images/threeDObjects/Apple.gif";
+
+
 function Home() {
     return (
      
