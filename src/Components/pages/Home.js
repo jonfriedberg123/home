@@ -3,7 +3,7 @@ import Apple from "../../Images/threeDObjects/Apple.gif";
 function Home() {
     return (
      
-        <div className="homePagePicture">
+     <div className="homePagePicture">
        <img className="fixed_img_graphic_design" src={Apple}/> 
  
         </div>
