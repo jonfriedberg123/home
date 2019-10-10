@@ -33,6 +33,7 @@
 }
 
 .fixed_img_home {
+  margin: 0 auto;
   max-width: 40em;  /* change this to whatever you want */
   height: auto;
 }
