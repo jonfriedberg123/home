@@ -31,6 +31,12 @@
   max-width: 13em;  /* change this to whatever you want */
     height: auto;
 }
+
+.fixed_img_home {
+  max-width: 40em;  /* change this to whatever you want */
+  height: auto;
+}
+
 .fixed_img_graphic_design{
   max-width: 40em;  /* change this to whatever you want */
     height: auto;

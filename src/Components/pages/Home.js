@@ -6,7 +6,7 @@ function Home() {
     return (
      
      <div className="homePagePicture">
-       <img className="fixed_img_graphic_design" src={Apple}/> 
+       <img className="fixed_img_home" src={Apple}/> 
  
         </div>
     )
