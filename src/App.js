@@ -10,6 +10,7 @@ import ThreeDModels from './Components/pages/ThreeDModels'
 import GraphicDesign from './Components/pages/GraphicDesign'
 import About from './Components/pages/About'
 import WebDevelopment from './Components/pages/WebDevelopment';
+import dreamScene from "./Images/illustrations/dreamScene.jpg";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <div>
     <NavBar />
     <Switch>
-      <Route exact path="/" component={Home}/>
+      <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About}/> 
       <Route exact path="/illustrations" component={Illustrations}/>
       <Route exact path="/3d_models" component={ThreeDModels}/>

@@ -1,13 +1,23 @@
-import React from 'react';
-import dreamScene from "../../Images/illustrations/dreamScene.jpg";
-function Home() {
+import React, { Component } from 'react';
+import '../../Style.css';
+import {ResponsiveEmbed,Image } from 'react-bootstrap';
+
+
+class Home extends Component {
+
+    
+  render() {
     return (
-     
-     <div className="home_page_div">
-       <img className="home_page_picture" src={dreamScene}/> 
- 
-        </div>
-    )
-}
+      <div style={{width: 660, height: 'auto',  display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center', margin: 'auto', paddingTop: '5%'}}>
+         <ResponsiveEmbed a16b9>
+         <Image src="https://static.pexels.com/photos/296886/pexels-photo-296886.jpeg" responsive />
+         </ResponsiveEmbed>
+      </div>)
+  }
+};
+
+
 
 export default Home;

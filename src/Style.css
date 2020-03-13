@@ -6,6 +6,27 @@
   --mainBlue: #007bff;
 }
 
+
+
+
+.footer-middle { background: var(--mainDark);
+    padding-top: 1.5rem;
+    color: var(--mainWhite);
+}
+
+.footer-bottom {
+    padding-top: 3rem;
+    padding-bottom: 2rem; 
+}
+
+ul li a{
+    color: var(--mainGrey);
+}
+
+ul li a:hover{
+    color: var( --mainWhite);
+}
+
 .navbar-togger:focus {
   outline: none;
 }
@@ -13,7 +34,11 @@
 .navbar-togger {
   border: none
 }
-
+.homePic{
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
 
 .illustrations{
   margin:0 auto;
@@ -27,27 +52,23 @@
   margin-top: -1%;
 }
 
-.fixed_img {
-  max-width: 13em;  /* change this to whatever you want */
-    height: auto;
+.homePic {
+  background-image: "./Images/illustrations/dreamScene.jpg";
+  max-width:100%;  /* change this to whatever you want */
+  max-height: 100%;
 }
 
-.home_page_picture {
-  margin: 0 auto;
-  margin-bottom: -6.7%;
-  margin-top: .7%;
-  max-width: 70%;  /* change this to whatever you want */
-  height: auto;
-  display: flex;
-  justify-content: center;
-  border-style: solid;
-  border-width: .2em;
+.fixed_img {
+  max-width:60em;  /* change this to whatever you want */
+    max-height: auto;
+    margin-bottom: -30%;
 }
+
 
 
 .fixed_img_graphic_design{
-  max-width: 40em;  /* change this to whatever you want */
-    height: auto;
+  max-width: 90em;  /* change this to whatever you want */
+    max-height: auto;
 }
 .fixed_img_three_d{
   max-width: 55em;  /* change this to whatever you want */
