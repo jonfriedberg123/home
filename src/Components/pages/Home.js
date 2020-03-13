@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../Style.css';
-import {ResponsiveEmbed,Image } from 'react-bootstrap';
 import Apple from '../../Images/threeDObjects/Apple.gif';
 import AutoFitImage from 'react-image-autofit-frame';
 
