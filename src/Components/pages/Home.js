@@ -10,11 +10,11 @@ class Home extends Component {
   render() {
     return (
       
-      <div className="homePic"
-      style={{width: 330, height: 'auto',  display: 'flex',
+      <div className= "homePic"
+      style={{ width: '100%', height: 'auto',  display: 'flex', 
       justifyContent: 'center',
-      alignItems: 'center', margin: 'auto', paddingTop: '5%', paddingBottom: '5%'}}>
-     <AutoFitImage frameWidth="500px" frameHeight="400px" imgSrc = {Apple}/>
+      alignItems: 'center', margin: 'auto', paddingTop: '5%', marginBottom: '-5.2%'}}>
+     <AutoFitImage  frameWidth="100%" frameHeight="500px" imgSrc = {Apple}/>
       </div>
    )
   }

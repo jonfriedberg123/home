@@ -19,6 +19,14 @@
     padding-bottom: 2rem; 
 }
 
+.homePic {
+  overflow: hidden; 
+  border: 5px solid black;
+  
+
+ 
+}
+
 ul li a{
     color: var(--mainGrey);
 }
@@ -34,11 +42,6 @@ ul li a:hover{
 .navbar-togger {
   border: none
 }
-.homePic{
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;
-}
 
 .illustrations{
   margin:0 auto;
@@ -52,9 +55,6 @@ ul li a:hover{
   margin-top: -1%;
 }
 
-.homePic {
-  border: 1px, black;
-}
 
 .fixed_img {
   max-width:60em;  /* change this to whatever you want */
