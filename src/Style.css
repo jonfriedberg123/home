@@ -53,9 +53,7 @@ ul li a:hover{
 }
 
 .homePic {
-  background-image: "./Images/illustrations/dreamScene.jpg";
-  max-width:100%;  /* change this to whatever you want */
-  max-height: 100%;
+  border: 1px, black;
 }
 
 .fixed_img {
