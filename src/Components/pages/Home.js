@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 import '../../Style.css';
 import {ResponsiveEmbed,Image } from 'react-bootstrap';
-
+import Apple from '../../Images/threeDObjects/Apple.gif'
 
 class Home extends Component {
 
     
   render() {
     return (
-      <div style={{width: 660, height: 'auto',  display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center', margin: 'auto', paddingTop: '5%'}}>
-         <ResponsiveEmbed a16b9>
-         <Image src="https://static.pexels.com/photos/296886/pexels-photo-296886.jpeg" responsive />
-         </ResponsiveEmbed>
+      <div 
+      style={{
+      alignItems: 'center', height: '30%', margin: 0, margin:'auto', paddingTop: '5%', paddingBottom: '5%'}}>
+       <img src = {Apple}></img>
       </div>)
   }
 };
