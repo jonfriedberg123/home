@@ -1,28 +1,19 @@
 import React, { Component } from 'react';
 import '../../Style.css';
-import Apple from '../../Images/threeDObjects/Apple.gif';
-import AutoFitImage from 'react-image-autofit-frame';
+import apple from '../../Images/threeDObjects/Apple.gif';
 
-class Home extends Component {
+function Home () {
 
     
-  render() {
-    return (
+  
+    return  <img src ={apple} alt = "Apple" />
      
-      <div className= "homePic"
-      style={{ width: '100%', height: 'auto',  display: 'flex', 
-      justifyContent: 'center',
-      alignItems: 'center', margin: 'auto', marginBottom: '-5.2%'}}>
-     <AutoFitImage  frameWidth="100%" frameHeight="500px" imgSrc = {Apple} class = "homePic" />
-     
-      </div>
       
-   )
+   
    
   }
-};
+
 
 
 
 export default Home;
-;
