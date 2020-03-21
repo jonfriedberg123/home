@@ -22,7 +22,7 @@ function App() {
     <p></p>
     <NavBar />
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/home" component={Home} />
       <Route exact path="/about" component={About}/> 
       <Route exact path="/illustrations" component={Illustrations}/>
       <Route exact path="/3d_models" component={ThreeDModels}/>
