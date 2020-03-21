@@ -66,20 +66,25 @@ ul li a:hover{
 
 
 .fixed_img {
-  max-width:60em;  /* change this to whatever you want */
-    max-height: auto;
-    margin-bottom: -30%;
+  max-width:30em;  /* change this to whatever you want */
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: -12%;
 }
 
 
 
 .fixed_img_graphic_design{
   max-width: 90em;  /* change this to whatever you want */
-    max-height: auto;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: -30%;
 }
 .fixed_img_three_d{
   max-width: 55em;  /* change this to whatever you want */
     height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
   

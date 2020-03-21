@@ -12,7 +12,7 @@ class Home extends Component {
       <div className= "homePic"
       style={{ width: '100%', height: 'auto',  display: 'flex', 
       justifyContent: 'center',
-      alignItems: 'center', margin: 'auto', marginBottom: '-5.5%'}}>
+      alignItems: 'center', margin: 'auto', marginBottom: '-5.3%'}}>
      <AutoFitImage  frameWidth="100%" frameHeight="500px" imgSrc = {Apple} class = "homePic" />
      
       </div>
