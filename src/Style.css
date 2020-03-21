@@ -57,8 +57,11 @@ ul li a:hover{
 }
 
 .carousel {
-  max-height: 20%;
+  
+
   margin-top: -1%;
+  display: flex;
+  justify-content: center;
 }
 
 
