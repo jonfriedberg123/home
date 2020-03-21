@@ -6,10 +6,13 @@ function Home () {
 
     
   
-    return  <img src ={apple} alt = "Apple" />
+    return (
      
+      <div className= "homePic">
+     <img src = {apple}></img>
+      </div>
       
-   
+   )
    
   }
 
