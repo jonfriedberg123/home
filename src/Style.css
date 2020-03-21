@@ -28,11 +28,11 @@
 }
 
 ul li a{
-    color: var(--mainGrey);
+    color: var(--mainBlue);
 }
 
 ul li a:hover{
-    color: var( --mainWhite);
+    color: var( --mainBlack);
 }
 
 .navbar-togger:focus {
