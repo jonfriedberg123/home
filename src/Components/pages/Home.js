@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../Style.css';
-import apple from '../../Images/threeDObjects/Apple.gif';
+
+import Image from 'react-bootstrap/Image';
 
 function Home () {
 
@@ -9,7 +10,7 @@ function Home () {
     return (
      
       <div className= "homePic">
-     <img src = {apple}></img>
+     <Image Source = '../../Images/threeDObjects/Apple.gif'/>
       </div>
       
    )
