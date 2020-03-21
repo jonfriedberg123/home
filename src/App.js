@@ -16,10 +16,7 @@ import dreamScene from "./Images/illustrations/dreamScene.jpg";
 function App() {
   return (
     <div>
-      <p></p>
-       <h1 style={{ display: 'flex', 
-      justifyContent: 'center', width: '100%', height: 'auto',textShadow: "2px 1px grey"}}>Jon Friedberg</h1>
-    <p></p>
+      
     <NavBar />
     <Switch>
       <Route exact path="/home" component={Home} />
