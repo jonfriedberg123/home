@@ -11,7 +11,10 @@
   justify-content: center;
 }
 
-
+.player-wrapper{
+  display: flex;
+  justify-content: center;
+}
 .footer-middle {
   
    background: var(--mainDark);
@@ -193,3 +196,10 @@ ul li a:hover{
 
 
 
+.player-wrapper{
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+
+}

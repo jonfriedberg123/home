@@ -10,7 +10,8 @@ import ThreeDModels from './Components/pages/ThreeDModels'
 import GraphicDesign from './Components/pages/GraphicDesign'
 import About from './Components/pages/About'
 import WebDevelopment from './Components/pages/WebDevelopment';
-import dreamScene from "./Images/illustrations/dreamScene.jpg";
+import Animations from './Components/pages/Animations';
+import SoundDesign from './Components/pages/SoundDesign';
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       <Route exact path="/3d_models" component={ThreeDModels}/>
       <Route exact path="/graphic_design" component={GraphicDesign}/>
       <Route exact path="/web_development" component={WebDevelopment}/>
+      <Route exact path="/animation" component={Animations}/>
+      <Route exact path="/sound_design" component={SoundDesign}/>
+
     </Switch>
     <br></br>
     <br></br>
