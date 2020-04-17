@@ -10,7 +10,10 @@
   display: flex;
   justify-content: center;
 }
-
+.nameHome{
+  display: flex;
+  justify-content: center;
+}
 .player-wrapper{
   display: flex;
   justify-content: center;
@@ -31,8 +34,6 @@
 .homePic {
   overflow: hidden; 
   border: 5px solid black;
-  
-
  
 }
 
