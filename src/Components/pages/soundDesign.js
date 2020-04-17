@@ -9,15 +9,15 @@ import audioReel from '../../Videos/audioreel.mp4'
 function soundDesign() {
     return (
        
-  <div>
-      <div>
+  <div className ='audio-reel'>
+     
                 <ReactPlayer
                 url= {audioReel}
                 controls = {true}
-                width='50%'
-            height='50%'
+                width='100%'
+            height='100%'
                  />
-                 </div>
+                
   </div>
 
     )}

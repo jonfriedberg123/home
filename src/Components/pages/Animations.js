@@ -11,30 +11,30 @@ class Animations extends Component{
         return (
             
             <div className='player-wrapper'>
-              <div>
+             <div className='animation-videos'>
                 <ReactPlayer
                 url= {flowerOfLife}
                 controls = {true}
                 width='50%'
-            height='50%'
+            height='40%'
                  />
-             </div> 
-             <div>
+             
+            
                 <ReactPlayer
                 url= {parvatiDance}
                 controls = {true}
                 width='50%'
             height='50%'
                  />
-            </div> 
+            
           
-             <div>   <ReactPlayer
+               <ReactPlayer
                 url= {snakeBrain}
                 controls = {true}
                 width='50%'
-            height='50%'
+            height='40%'
                  />
-          </div>
+         </div>
             </div>
             )
     }
