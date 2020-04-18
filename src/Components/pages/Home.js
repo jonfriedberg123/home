@@ -19,7 +19,6 @@ class Home extends Component {
       
       <div>  
       <h1 className= 'nameHome'>Jonathan Friedberg</h1>
-      <h2 className= 'jobHome'> Software Engineer</h2>
       </div>
       </div>
       
