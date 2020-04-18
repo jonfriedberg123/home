@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.8cba5ace.chunk.css",
+    "main.css": "/home/static/css/main.fdad666a.chunk.css",
     "main.js": "/home/static/js/main.c4e97d4c.chunk.js",
     "main.js.map": "/home/static/js/main.c4e97d4c.chunk.js.map",
     "runtime~main.js": "/home/static/js/runtime~main.0990ee84.js",
@@ -9,10 +9,10 @@
     "static/js/2.c492604c.chunk.js": "/home/static/js/2.c492604c.chunk.js",
     "static/js/2.c492604c.chunk.js.map": "/home/static/js/2.c492604c.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.ea061477486b89e6db1776d0e89dc28f.js": "/home/precache-manifest.ea061477486b89e6db1776d0e89dc28f.js",
+    "precache-manifest.dc41f0fb3c2568f14229182b33a01a19.js": "/home/precache-manifest.dc41f0fb3c2568f14229182b33a01a19.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.91c2c38c.chunk.css.map": "/home/static/css/2.91c2c38c.chunk.css.map",
-    "static/css/main.8cba5ace.chunk.css.map": "/home/static/css/main.8cba5ace.chunk.css.map",
+    "static/css/main.fdad666a.chunk.css.map": "/home/static/css/main.fdad666a.chunk.css.map",
     "static/media/Apple.gif": "/home/static/media/Apple.6c16f12e.gif",
     "static/media/Apple2.gif": "/home/static/media/Apple2.5390ffbb.gif",
     "static/media/Apple3.gif": "/home/static/media/Apple3.012caea4.gif",
