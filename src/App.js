@@ -21,14 +21,14 @@ function App() {
       
     <NavBar />
     <Switch>
-      <Route exact path="/home" className="nav-link" component={Home} />
-      <Route exact path="/about" className="nav-link" component={About}/> 
-      <Route exact path="/illustrations" className="nav-link" component={Illustrations}/>
-      <Route exact path="/3d_models" className="nav-link" component={ThreeDModels}/>
-      <Route exact path="/graphic_design" className="nav-link" component={GraphicDesign}/>
-      <Route exact path="/web_development" className="nav-link" component={WebDevelopment}/>
-      <Route exact path="/animation" className="nav-link" component={Animations}/>
-      <Route exact path="/sound_design" className="nav-link" component={SoundDesign}/>
+      <Route exact path="/home" component={Home} />
+      <Route exact path="/about" component={About}/> 
+      <Route exact path="/illustrations" component={Illustrations}/>
+      <Route exact path="/3d_models" component={ThreeDModels}/>
+      <Route exact path="/graphic_design" component={GraphicDesign}/>
+      <Route exact path="/web_development" component={WebDevelopment}/>
+      <Route exact path="/animation" component={Animations}/>
+      <Route exact path="/sound_design" component={SoundDesign}/>
 
     </Switch>
     <br></br>

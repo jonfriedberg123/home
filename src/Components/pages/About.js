@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Style.css';
-
+import { BrowserRouter } from 'react-router-dom';
 
 
 function about() {
