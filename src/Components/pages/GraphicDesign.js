@@ -10,7 +10,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 
-function graphicDesign() {
+class graphicDesign extends Component{
+    render () {
     return (
         <div className = "carousel">
         <Carousel>
@@ -33,5 +34,5 @@ function graphicDesign() {
         </Carousel>
         </div>
     )}
-
+    }
 export default graphicDesign;

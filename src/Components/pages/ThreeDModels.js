@@ -17,8 +17,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 
-
-function threeDModels() {
+class threeDModels extends Component{
+    render () {
     return (
         <div className = "carousel">
             <Carousel>
@@ -63,5 +63,5 @@ function threeDModels() {
             </div>
         );
     }
-;
+;}
 export default threeDModels;

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../../Style.css';
 
 
 
-function webDevelopment() {
+class webDevelopment extends Component{
+    render () {
     return (
 
 
@@ -28,5 +29,5 @@ function webDevelopment() {
      </ul>
     </div>
     )}
-
+    }
 export default webDevelopment;

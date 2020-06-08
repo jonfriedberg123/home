@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../../Style.css';
 import { BrowserRouter } from 'react-router-dom';
 
 
-function about() {
+class about extends Component{
+    render () {
   
     return (
       <BrowserRouter>
@@ -23,5 +24,5 @@ function about() {
     </div>
     </BrowserRouter>
     )}
-
+    }
 export default about;
