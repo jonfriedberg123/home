@@ -19,25 +19,25 @@ function NavBar() {
             Home&nbsp;<i class="fas fa-home"></i> <span className="sr-only">(current)</span></Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/about">About</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/about">About</Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/web_development">Web Development</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/web_development">Web Development</Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/illustrations">Illustrations</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/illustrations">Illustrations</Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/3d_models">3D Models</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/3d_models">3D Models</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/graphic_design">Graphic Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/graphic_design">Graphic Design</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/animation">Animation</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/animation">Animation</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/sound_design">Sound Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home/sound_design">Sound Design</Link>
       </li>
     </ul>
   </div>
