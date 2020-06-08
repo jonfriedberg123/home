@@ -12,6 +12,7 @@ import About from './Components/pages/About'
 import WebDevelopment from './Components/pages/WebDevelopment';
 import Animations from './Components/pages/Animations';
 import SoundDesign from './Components/pages/SoundDesign';
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
