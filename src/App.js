@@ -14,8 +14,9 @@ import Animations from './Components/pages/Animations';
 import SoundDesign from './Components/pages/SoundDesign';
 import { Link } from 'react-router-dom';
 
-export const App =() => (
- 
+
+function App() {
+  return (
     <div>
       
 {/* 
@@ -29,7 +30,7 @@ export const App =() => (
       <Link to="/sound_design">SoundDesign</Link> */}
     <NavBar />
     <Switch>
-      <Route exact path="/home" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About}/> 
       <Route exact path="/illustrations" component={Illustrations}/>
       <Route exact path="/3d_models" component={ThreeDModels}/>
@@ -48,4 +49,6 @@ export const App =() => (
    
               
   );
+}
+
 export default App;
