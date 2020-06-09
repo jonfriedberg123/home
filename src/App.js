@@ -14,20 +14,12 @@ import Animations from './Components/pages/Animations';
 import SoundDesign from './Components/pages/SoundDesign';
 import { Link } from 'react-router-dom';
 
-
-function App() {
+class App extends Component() {
+  render(){
   return (
     <div>
       
 
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/illustrations">Illustrations</Link>
-      <Link to="/3d_models">ThreeDModels</Link>
-      <Link to="/graphic_design">Illustrations</Link>
-      <Link to="/web_development">WebDevelopment</Link>
-      <Link to="/animation">Animations</Link>
-      <Link to="/sound_design">SoundDesign</Link>
     <NavBar />
     <Switch>
       <Route exact path="/home" component={Home} />
@@ -49,6 +41,6 @@ function App() {
    
               
   );
-}
+}}
 
 export default App;
