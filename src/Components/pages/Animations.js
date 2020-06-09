@@ -6,10 +6,8 @@ import parvatiDance from '../../Videos/parvatiDance.mp4'
 import snakeBrain from '../../Videos/snakeBrain.mov'
 
 
-class Animations extends Component{
-    render () {
-        return (
-            
+export const Animations =()=>(
+
             <div className='player-wrapper'>
              <div className='animation-videos'>
                 <ReactPlayer
@@ -37,7 +35,6 @@ class Animations extends Component{
          </div>
             </div>
             )
-    }
-  }
+   
 
 export default Animations;

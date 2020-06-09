@@ -3,11 +3,9 @@ import '../../Style.css';
 import Apple from '../../Images/threeDObjects/Apple.gif';
 import AutoFitImage from 'react-image-autofit-frame';
 
-class Home extends Component {
+export const Home = () => (
 
-    
-  render() {
-    return (
+
     
       <div className= "homePic"
       style={{ width: '100%', height: 'auto',  display: 'flex', 
@@ -24,8 +22,7 @@ class Home extends Component {
       
    )
    
-  }
-};
+
 
 
 

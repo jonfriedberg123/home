@@ -9,10 +9,8 @@ import vectorDrawing from "../../Images/illustrations/vectorDrawing.gif"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
  
-
-class Illustrations extends Component {
-    render() {
-        return (
+export const Illustrations = () => (
+ 
       <div className = "carousel">
             <Carousel>
                 
@@ -40,7 +38,5 @@ class Illustrations extends Component {
             </Carousel>
             </div>
         );
-    }
-};
 
 export default Illustrations;

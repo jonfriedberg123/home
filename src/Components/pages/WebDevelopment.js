@@ -3,10 +3,8 @@ import '../../Style.css';
 
 
 
-class webDevelopment extends Component{
-    render () {
-    return (
-
+export const webDevelopment = () => (
+  
 
 <div className="webDevLinks">
   <br></br>
@@ -28,6 +26,5 @@ class webDevelopment extends Component{
      </div>
      </ul>
     </div>
-    )}
-    }
+    )
 export default webDevelopment;

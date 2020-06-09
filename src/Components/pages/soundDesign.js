@@ -5,10 +5,8 @@ import audioReel from '../../Videos/audioreel.mp4'
 
 
 
-
-class soundDesign extends Component{
-  render () {
-    return (
+export const soundDesign = () => (
+ 
        
   <div className ='audio-reel'>
      
@@ -21,6 +19,5 @@ class soundDesign extends Component{
                 
   </div>
 
-    )}
-    }
+    )
 export default soundDesign;

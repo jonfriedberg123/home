@@ -14,13 +14,12 @@ import Animations from './Components/pages/Animations';
 import SoundDesign from './Components/pages/SoundDesign';
 import { Link } from 'react-router-dom';
 
-
-function App() {
-  return (
+export const App =() => (
+ 
     <div>
       
-
-      {/* <Link to="/">Home</Link>
+{/* 
+      <Link to="/">Home</Link>
       <Link to="/about">About</Link>
       <Link to="/illustrations">Illustrations</Link>
       <Link to="/3d_models">ThreeDModels</Link>
@@ -49,6 +48,4 @@ function App() {
    
               
   );
-}
-
 export default App;
