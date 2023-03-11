@@ -30,14 +30,14 @@ function App() {
       <Link to="/sound_design">SoundDesign</Link> */}
     <NavBar />
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About}/> 
-      <Route exact path="/illustrations" component={Illustrations}/>
-      <Route exact path="/3d_models" component={ThreeDModels}/>
-      <Route exact path="/graphic_design" component={GraphicDesign}/>
-      <Route exact path="/web_development" component={WebDevelopment}/>
-      <Route exact path="/animation" component={Animations}/>
-      <Route exact path="/sound_design" component={SoundDesign}/>
+      <Route exact path="https://friedbergjon.github.io/" component={Home} />
+      <Route exact path="https://friedbergjon.github.io/about" component={About}/> 
+      <Route exact path="https://friedbergjon.github.io/illustrations" component={Illustrations}/>
+      <Route exact path="https://friedbergjon.github.io/3d_models" component={ThreeDModels}/>
+      <Route exact path="https://friedbergjon.github.io/graphic_design" component={GraphicDesign}/>
+      <Route exact path="https://friedbergjon.github.io/web_development" component={WebDevelopment}/>
+      <Route exact path="https://friedbergjon.github.io/animation" component={Animations}/>
+      <Route exact path="https://friedbergjon.github.io/sound_design" component={SoundDesign}/>
 
     </Switch>
     <br></br>
