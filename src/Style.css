@@ -169,27 +169,13 @@ ul li a:hover{
   justify-content: center;
 
 }
-.LinkOne {
+.LinkOne, .LinkTwo, .LinkThree, .LinkFour, .LinkFive{
   margin: 0 auto;
   margin-top: 3%;
   font-weight:bold;
   font-size:2.5em
 }
 
-
-.LinkTwo {
-  margin: 0 auto;
-  margin-top: 3%;
-  font-weight:bold;
-  font-size:2.5em
-}
-
-.LinkThree {
-  margin: 0 auto;
-  margin-top: 3%;
-  font-weight:bold;
-  font-size:2.5em
-}
 
 .contact-info{
   margin: 0 auto;
