@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a182fa905b57a8f04311100141fbd560",
+    "revision": "630e2db74067afc31c826e2fc1e0fcc7",
     "url": "/home/index.html"
   },
   {
-    "revision": "afc595d6559e2e61a36e",
+    "revision": "a1d055b327aba286cbf6",
     "url": "/home/static/css/2.91c2c38c.chunk.css"
   },
   {
-    "revision": "5ce68244b094556af339",
-    "url": "/home/static/css/main.5eba94eb.chunk.css"
+    "revision": "820fc3572b7cae0cf220",
+    "url": "/home/static/css/main.d8b9950b.chunk.css"
   },
   {
-    "revision": "afc595d6559e2e61a36e",
-    "url": "/home/static/js/2.73284b44.chunk.js"
+    "revision": "a1d055b327aba286cbf6",
+    "url": "/home/static/js/2.8b56636e.chunk.js"
   },
   {
-    "revision": "5ce68244b094556af339",
-    "url": "/home/static/js/main.32a2b738.chunk.js"
+    "revision": "820fc3572b7cae0cf220",
+    "url": "/home/static/js/main.fac58070.chunk.js"
   },
   {
     "revision": "4e1ec8947a6857600002",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/Lamppost.a8fb97a2.gif"
   },
   {
+    "revision": "a93b026455697a19774d639e4126a68c",
+    "url": "/home/static/media/Lamppost2.a93b0264.png"
+  },
+  {
     "revision": "e2c9a76d283db2f19e6d87aa755443c0",
     "url": "/home/static/media/Lamppost2.e2c9a76d.gif"
   },
@@ -64,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/angel.ea33e205.gif"
   },
   {
+    "revision": "6c16f12e6f68e562c615972f81f5285a",
+    "url": "/home/static/media/apple.6c16f12e.gif"
+  },
+  {
     "revision": "82dd43b20e6553a4183ec6d1350c8072",
     "url": "/home/static/media/audioreel.82dd43b2.mp4"
   },
@@ -74,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3fe2accc0aeb13a6d0e596c4ff3bc5e",
     "url": "/home/static/media/davidHockneyProject.d3fe2acc.gif"
+  },
+  {
+    "revision": "1e4008769a8303e4bbd9eb8200e4c180",
+    "url": "/home/static/media/fire-hydrant3.1e400876.jpg"
   },
   {
     "revision": "24879e36b4f9a4df8dd247eb4670219f",
