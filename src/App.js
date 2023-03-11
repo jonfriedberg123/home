@@ -33,11 +33,11 @@ function App() {
       <Route exact path="https://friedbergjon.github.io/" component={Home} />
       <Route exact path="https://friedbergjon.github.io/about" component={About}/> 
       <Route exact path="https://friedbergjon.github.io/illustrations" component={Illustrations}/>
-      <Route exact path="https://friedbergjon.github.io/3d_models" component={ThreeDModels}/>
+      <Route exact path="https://friedbergjon.github.io/3d-models" component={ThreeDModels}/>
       <Route exact path="https://friedbergjon.github.io/graphic_design" component={GraphicDesign}/>
-      <Route exact path="https://friedbergjon.github.io/web_development" component={WebDevelopment}/>
+      <Route exact path="https://friedbergjon.github.io/web-development" component={WebDevelopment}/>
       <Route exact path="https://friedbergjon.github.io/animation" component={Animations}/>
-      <Route exact path="https://friedbergjon.github.io/sound_design" component={SoundDesign}/>
+      <Route exact path="https://friedbergjon.github.io/sound-design" component={SoundDesign}/>
 
     </Switch>
     <br></br>
