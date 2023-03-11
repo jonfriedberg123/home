@@ -25,22 +25,22 @@ function NavBar() {
         <Link className="nav-link text-white text-uppercase ml-5" to="/about">About</Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/web_development">Web Development</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/web-development">Web Development</Link>
       </li>
       <li>
         <Link className="nav-link text-white text-uppercase ml-5" to="/illustrations">Illustrations</Link>
       </li>
       <li>
-        <Link className="nav-link text-white text-uppercase ml-5" to="/3d_models">3D Models</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/3d-models">3D Models</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/graphic_design">Graphic Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/graphic-design">Graphic Design</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link text-white text-uppercase ml-5" to="/animation">Animation</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/sound_design">Sound Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/sound-design">Sound Design</Link>
       </li>
     </ul>
   </div>

@@ -19,25 +19,17 @@ function App() {
   return (
     <div>
       
-{/* 
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/illustrations">Illustrations</Link>
-      <Link to="/3d_models">ThreeDModels</Link>
-      <Link to="/graphic_design">Illustrations</Link>
-      <Link to="/web_development">WebDevelopment</Link>
-      <Link to="/animation">Animations</Link>
-      <Link to="/sound_design">SoundDesign</Link> */}
+
     <NavBar />
     <Switch>
-      <Route exact path="https://friedbergjon.github.io/" component={Home} />
-      <Route exact path="https://friedbergjon.github.io/about" component={About}/> 
-      <Route exact path="https://friedbergjon.github.io/illustrations" component={Illustrations}/>
-      <Route exact path="https://friedbergjon.github.io/3d-models" component={ThreeDModels}/>
-      <Route exact path="https://friedbergjon.github.io/graphic_design" component={GraphicDesign}/>
-      <Route exact path="https://friedbergjon.github.io/web-development" component={WebDevelopment}/>
-      <Route exact path="https://friedbergjon.github.io/animation" component={Animations}/>
-      <Route exact path="https://friedbergjon.github.io/sound-design" component={SoundDesign}/>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About}/> 
+      <Route exact path="/illustrations" component={Illustrations}/>
+      <Route exact path="/3d-models" component={ThreeDModels}/>
+      <Route exact path="/graphic-design" component={GraphicDesign}/>
+      <Route exact path="/web-development" component={WebDevelopment}/>
+      <Route exact path="/animation" component={Animations}/>
+      <Route exact path="/sound-design" component={SoundDesign}/>
 
     </Switch>
     <br></br>
