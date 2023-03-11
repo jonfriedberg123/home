@@ -14,7 +14,6 @@
   display: flex;
   justify-content: center;
   margin-left: 25%;
- 
   margin-top: 10%;
 }
 
@@ -23,25 +22,22 @@
   display: flex;
   justify-content: center;
 }
+
 .footer-middle {
-  
    background: var(--mainDark);
-    padding-top: 1.5rem;
     color: var(--mainWhite);
 }
 
-.footer-bottom {
-
-    padding-top: 3rem;
-    padding-bottom: 2rem; 
+.main-footer{
+position:fixed;
+bottom:0;
+width: 100%;
 }
 
 .homePic {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden; 
- 
- 
 }
 
 ul li a{
@@ -54,10 +50,15 @@ ul li a:hover{
 
 .navbar-togger:focus {
   outline: none;
+  margin-top:100px;
+  margin-bottom:50px;
+
 }
 
 .navbar-togger {
-  border: none
+  border: none;
+  margin-top:100px;
+  margin-bottom:50px;
 }
 
 .illustrations{
@@ -65,14 +66,22 @@ ul li a:hover{
 }
 .AboutText{
   margin: 0 auto;
+  background-image: url('Lamppost2.png');
+   background-size:1000px;
+   background-repeat: no-repeat;
+    background-position: center; 
+  background-size: cover;
+padding-bottom:300px;
+
 }
 
 .carousel {
   
 
-  margin-top: -1%;
   /* display: flex;
   justify-content: center; */
+  padding-bottom:30px;
+  overflow:auto;
 }
 
 
@@ -80,7 +89,8 @@ ul li a:hover{
   max-width:30em;  /* change this to whatever you want */
     height: auto;
     margin-top: 2%;
-    margin-bottom: -12%;
+    margin-bottom: 2%;
+    padding-bottom:200px;
 }
 
 
@@ -111,18 +121,19 @@ ul li a:hover{
   justify-content: center;
   margin-left:23%;
   margin-right:23%;
-  margin-top: 3%;
-  font-size: 1.2em;
-  color: black;
+ padding-top:5%;
+  font-size: 1.3em;
+  font-weight:bold;
+  line-height:normal;
+  color: white;
   
 }
 
 .About{
-  color: white;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  color: black;
+  color: white;
 }
 
 .SkillsAndSoftware{
@@ -131,31 +142,32 @@ ul li a:hover{
   margin-right: 10%;
   display: flex;
   flex-wrap: wrap;
-  color: black;
+  color: white;
+  
 }
 
 .SkillsTitle{
-  color: white;
+  
   text-decoration: underline;
-  color: black;
+  color:white;
 }
 .SkillsParagraphText{
   color: white;
   font-size:1em;
   font-weight:bold;
-  color: black;
+  color: white;
 }
 
 .SoftwareTitle{
   color: white;
   text-decoration: underline;
-  color: black;
+  
 }
 .SoftwareParagraphText {
   color: white;
   font-size:1em;
   font-weight:bold;
-  color: black;
+
 }
 
 

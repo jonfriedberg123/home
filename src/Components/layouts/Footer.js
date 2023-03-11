@@ -42,7 +42,7 @@ function Footer() {
         </div>
         <ul className="contact-info">
             <li>friedberg_jon@hotmail.com</li>
-            <li>(802) 829-7252</li>
+            <li>(541) 841-0728</li>
         </ul> 
         </div>
         </ FooterContainer> 
@@ -56,11 +56,13 @@ const FooterContainer = styled.footer
 .footer-middle { background: var(--mainDark);
     padding-top: 1.5rem;
     color: var(--mainWhite);
+   
 }
 
 .footer-bottom {
     padding-top: 3rem;
     padding-bottom: 2rem; 
+
 }
 
 ul li a{

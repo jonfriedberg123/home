@@ -40,7 +40,7 @@ function NavBar() {
         <Link className="nav-link text-white text-uppercase ml-5" to="/animation">Animation</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/sound-design">Sound Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/sound_design">Sound Design</Link>
       </li>
     </ul>
   </div>

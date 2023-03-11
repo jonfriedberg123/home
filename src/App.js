@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className="main">
       
 
     <NavBar />
@@ -35,11 +35,8 @@ function App() {
     <br></br>
     <br></br>
     <br></br>
-    
     <Footer />
-    </div>
-   
-              
+    </div>        
   );
 }
 
