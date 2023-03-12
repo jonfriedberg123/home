@@ -7,32 +7,35 @@ import snakeBrain from '../../Videos/snakeBrain.mov'
 
 
 export const Animations =()=>(
-
+<div className='animation-window'>
             <div className='player-wrapper'>
              <div className='animation-videos'>
+                <div className='animation-video-each'>
                 <ReactPlayer
                 url= {flowerOfLife}
                 controls = {true}
-                width='50%'
-            height='40%'
+                width='70%'
+            height='70%'
                  />
-             
-            
+             </div>
+            <div className='animation-video-each'>
                 <ReactPlayer
                 url= {parvatiDance}
                 controls = {true}
-                width='50%'
-            height='50%'
+                width='70%'
+            height='70%'
                  />
-            
-          
+            </div>
+          <div className='animation-video-each'>
                <ReactPlayer
                 url= {snakeBrain}
                 controls = {true}
-                width='50%'
-            height='40%'
+                width='70%'
+            height='70%'
                  />
          </div>
+         </div>
+            </div>
             </div>
             )
    

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import ReactDOM from "react-dom";
 import './Style.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './Components/layouts/NavBar';
 import Footer from './Components/layouts/Footer';
-import { Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from './Components/pages/Home'
 import Illustrations from './Components/pages/Illustrations'
 import ThreeDModels from './Components/pages/ThreeDModels'
@@ -17,10 +18,11 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="main">
-      
-
+    
+ <div className="home-pic">
     <NavBar />
+      <h1 className= 'home-title'>Jonathan Friedberg</h1>
+       <h1 className= 'home-title-heading'>Full-Stack Developer</h1>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About}/> 

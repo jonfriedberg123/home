@@ -1,30 +1,20 @@
 import React, { Component } from 'react';
 import '../../Style.css';
-import Apple from './apple.gif';
 import AutoFitImage from 'react-image-autofit-frame';
+import {withRouter} from 'react-router';
 
 export const Home = () => (
 
 
     
-      <div className= "homePic"
-      style={{ width: '100%', height: 'auto',  display: 'flex', 
-      justifyContent: 'center',
-      alignItems: 'center', margin: 'auto', marginTop: '5%'}}>
-     <AutoFitImage  frameWidth="100%" frameHeight="500px" imgSrc = {Apple} class = "homePic" />
-   
-   
-      
-      <div>  
-      <h1 className= 'nameHome'>Jonathan Friedberg</h1>
-      </div>
-      </div>
-      
+      <div>
+      <h1> </h1>
+      </div> 
    )
    
 
 
 
 
-export default Home;
-;
+export default withRouter(Home);
+; 

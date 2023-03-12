@@ -9,14 +9,13 @@ export const soundDesign = () => (
  
        
   <div className ='audio-reel'>
-     
                 <ReactPlayer
                 url= {audioReel}
                 controls = {true}
-                width='100%'
-            height='100%'
+                width='80%'
+            height='80%'
+        
                  />
-                
   </div>
 
     )

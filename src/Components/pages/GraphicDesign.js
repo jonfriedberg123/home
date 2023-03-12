@@ -11,7 +11,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 export const graphicDesign = () => (
-
+    <div className = "graphic-design">
+<div className="carousel-outer">
         <div className = "carousel">
         <Carousel>
             
@@ -31,6 +32,8 @@ export const graphicDesign = () => (
                 <img className="fixed_img_graphic_design" src={panorama} /> 
             </div>
         </Carousel>
+        </div>
+        </div>
         </div>
 )
 export default graphicDesign;

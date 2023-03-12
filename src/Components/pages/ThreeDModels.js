@@ -18,7 +18,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 export const threeDModels =() => (
-    
+    <div className="graphic-design">
+    <div className="carousel-outer">
         <div className = "carousel">
             <Carousel>
                 
@@ -59,6 +60,8 @@ export const threeDModels =() => (
                     <img className="fixed_img_three_d" src={Lamppost3} /> 
                 </div>
             </Carousel>
+            </div>
+            </div>
             </div>
         );
 

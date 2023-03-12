@@ -6,6 +6,30 @@
   --mainBlue: #007bff;
 }
 
+.main-two{
+background-image: url('Apple.gif');
+   background-size:1000px;
+    background-position: center; 
+  background-size: cover;
+padding-bottom:600px;
+}
+
+.home-title{
+  padding-top:17%;
+  text-align: center;
+  color:black;
+}
+.home-title-heading{
+  text-align: center;
+  color:black;
+}
+.home-pic{
+  background-image: url('Apple.gif');
+   background-size:1000px;
+    background-position: center; 
+  background-size: cover;
+  padding-bottom:600px;
+}
 .list-unstyled {
   display: flex;
   justify-content: center;
@@ -21,6 +45,8 @@
 .player-wrapper{
   display: flex;
   justify-content: center;
+  padding-bottom:100px;
+  overflow: auto;
 }
 
 .footer-middle {
@@ -34,19 +60,25 @@ bottom:0;
 width: 100%;
 }
 
-.homePic {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden; 
-}
-
 ul li a{
-    color: var(--mainBlue);
+    color: var(--black);
 }
 
 ul li a:hover{
-    color: var( --mainBlack);
+    color: var( --mainBlue);
 }
+
+ReactPlayer {
+
+}
+
+.navbar{
+    top:0;
+    position: fixed;
+    z-index:100;
+    width:100%;
+}
+
 
 .navbar-togger:focus {
   outline: none;
@@ -66,48 +98,53 @@ ul li a:hover{
 }
 .AboutText{
   margin: 0 auto;
-  background-image: url('Lamppost2.png');
-   background-size:1000px;
-   background-repeat: no-repeat;
-    background-position: center; 
-  background-size: cover;
-padding-bottom:300px;
-
+text-align: left;
 }
 
 .carousel {
-  
-
   /* display: flex;
   justify-content: center; */
   padding-bottom:30px;
   overflow:auto;
 }
 
+.carousel-outer .carousel .slide {
+    background: none;
+}
 
 .fixed_img {
   max-width:30em;  /* change this to whatever you want */
     height: auto;
     margin-top: 2%;
-    margin-bottom: 2%;
-    padding-bottom:200px;
+    padding-bottom:100px;
 }
 
 
 
 .fixed_img_graphic_design{
-  max-width: 90em;  /* change this to whatever you want */
+  max-width: 50em;  /* change this to whatever you want */
     height: auto;
     margin-top: 2%;
     margin-bottom: -10%;
+    padding-bottom:100px;
 }
 .fixed_img_three_d{
-  max-width: 55em;  /* change this to whatever you want */
+  max-width: 60em;  /* change this to whatever you want */
     height: auto;
     margin-top: 2%;
     margin-bottom: 5%;
 }
-
+@media only screen and (max-width: 600px) {
+.fixed_img {
+max-width:20em;
+}
+.fixed_img_graphic_design{
+  max-width:20em;
+}
+.fixed_img_three_d{
+  max-width: 20em;
+}
+}
   
 .Name {
   text-align: center;
@@ -121,11 +158,11 @@ padding-bottom:300px;
   justify-content: center;
   margin-left:23%;
   margin-right:23%;
- padding-top:5%;
+ padding-top:3%;
   font-size: 1.3em;
   font-weight:bold;
   line-height:normal;
-  color: white;
+  color: black;
   
 }
 
@@ -133,18 +170,31 @@ padding-bottom:300px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  color: white;
+  color: black;
+  padding-bottom:20%;
 }
-
+.graphic-design{
+  padding-bottom:20%;
+}
 .SkillsAndSoftware{
   margin: 0 auto;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 40%;
+  padding-top:50px;
   display: flex;
   flex-wrap: wrap;
-  color: white;
-  
+  color: white; 
 }
+
+@media only screen and (max-width: 990px) {
+  .SkillsAndSoftware{
+    padding-top:200px;
+  }
+  .About{
+    padding-top:70%;
+  }
+}
+
 
 .SkillsTitle{
   
@@ -170,22 +220,39 @@ padding-bottom:300px;
 
 }
 
-
+.webDevWrap{
+padding-top:100px;
+}
 
 
 .webDevLinks{
+  color:black;
   margin: 0 auto;
-  margin-top: 10%;
-  
   display: flex;
   justify-content: center;
 
 }
+
+@media only screen and (max-width: 800px) {
+  
+.webDevLinks{
+  padding-top:25%;
+}
+  }
+
+@media only screen and (max-width: 600px) {
+.webDevLinks{
+  padding-top:35%;
+}
+  }
+
+
 .LinkOne, .LinkTwo, .LinkThree, .LinkFour, .LinkFive{
   margin: 0 auto;
-  margin-top: 3%;
+  margin-top: 5%;
   font-weight:bold;
-  font-size:2.5em
+  font-size:1.5em;
+  color:#dff3ff;
 }
 
 
@@ -200,15 +267,30 @@ padding-bottom:300px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.animation-window{
 
+ padding-top:100px;
+ padding-bottom:200px;
+}
 
+.animation-videos{
+  padding-top:3%;
+   padding-bottom:3%;
+  
+}
+
+.animation-video-each{
+  padding-bottom: 100px;
+   border: '10px solid black';
+}
 .player-wrapper{
   margin: 0 auto;
   align-items: center;
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  margin-left: 33%;
+  margin-left: 25%;
+  
 }
 
 .audio-reel{
@@ -216,7 +298,8 @@ padding-bottom:300px;
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
-
+  padding-bottom:250px;
+  padding-top:100px;
+ background: none;
 }
 

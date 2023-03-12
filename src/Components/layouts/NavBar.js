@@ -18,8 +18,7 @@ function NavBar() {
     <ul className="navbar-nav m-auto">
       <li className="nav-item active">
        
-        <Link className="nav-link text-white text-uppercase ml-5" to="/home">
-            Home&nbsp;<i class="fas fa-home"></i> <span className="sr-only">(current)</span></Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/home"></Link>
       </li>
       <li>
         <Link className="nav-link text-white text-uppercase ml-5" to="/about">About</Link>
@@ -40,7 +39,7 @@ function NavBar() {
         <Link className="nav-link text-white text-uppercase ml-5" to="/animation">Animation</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link text-white text-uppercase ml-5" to="/sound_design">Sound Design</Link>
+        <Link className="nav-link text-white text-uppercase ml-5" to="/sound-design">Sound Design</Link>
       </li>
     </ul>
   </div>

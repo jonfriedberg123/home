@@ -10,10 +10,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
  
 export const Illustrations = () => (
- 
+<div className="carousel-outer">
       <div className = "carousel">
             <Carousel>
-                
                 <div>
                     <img className="fixed_img" src={angel}  /> 
                 </div>
@@ -36,6 +35,7 @@ export const Illustrations = () => (
                     <img className="fixed_img" src={vectorDrawing} /> 
                 </div>
             </Carousel>
+            </div>
             </div>
         );
 
