@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import '../../Style.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 
 
 class about extends Component{
+
     render () {
   
     return (
@@ -11,15 +12,22 @@ class about extends Component{
       
     <div className = "AboutText">
        <div className="AboutParagraph">
-     <p className="About">Jon Friedberg moved to New York City in late Fall of 2018. Previously he hearned a Bachelor Degree in Audio Production and pursued a certificate in Animation. For the last 2-3 years, he has been programming on his own and graduated from General Assembly's Software Engineering Program in July of 2019 and continues to improve his skills.</p>
+     <p className="About">Jon Friedberg has been working as a Full-Stack Developer at ISHK for two and a half years. Previously he hearned a Bachelor Degree in Audio Production, pursued a certificate in Animation, and graduated from General Assembly's Software Engineering Program in July of 2019. For the 3 years prior to being hired at ISHK, he had been studying Programming and Computer Science. </p>
      </div>
      <div className="SkillsAndSoftware">
        <h2 className= "SkillsTitle">Skills</h2>
-     <p className="SkillsParagraphText">Full-stack development, Javascript, React, Nodejs, Express, PostgreSQL, R, Python, Ruby on Rails, MongoDB, Computer Science fundamentals, HTML, CSS, Git commands, Materialize UI, Bootstrap, Algebra, Trigonometry, Calculus, Discrete Mathematics, drawing, painting, 3-d modeling, UV unwrapping, storyboarding, photography, Stereo and 5.1 recording, mixing & editing audio, ADR, SFX (Foley, Soft FX, Hard FX), onset recording, dB Ranges for Broadcast Standards, microphone placement, polar patterns, signal flow, live sound reinforcement, soldering, schematic reading
+     <p className="SkillsParagraphText">
+     <h2>Advanced:</h2>Website Migrations (DNS Records, Domain Registrar), HTML, CSS, Javascript, Git commands, Algebra, Trigonometry, Calculus, Discrete Mathematics, Computer Science, drawing, painting, 3-D Modeling, UV Unwrapping, Photography, Stereo and 5.1 recording, Mixing & Editing Audio, ADR, SFX (Foley, Soft FX, Hard FX)
+     <h2>Moderate:</h2>SEO, PHP, Materialize UI, Bootstrap, React, PostgreSQL, MongoDB, Nodejs, Express, Terminal commands 
+     Ruby on Rails
+
+     <h2>Intermediate:</h2> Java, C++
     </p>
     
       <h2 className= "SoftwareTitle">Software</h2>
-    <p className="SoftwareParagraphText">Text Editors, Maya, Z-Brush, 3D Studio Max, Marvellous Designer, Substance Painter, Final Cut Pro, Adobe Suite: Premiere; Audition; Illustrator; Photoshop; After Effects; In Design, TextMate, ProTools, Logic Pro, Reason, Symphonic Orchestra, Symphonic Choirs, Word Builder, Garage Band, DVD Compressor
+    <p className="SoftwareParagraphText">
+    <h2>Advanced:</h2>Gutenberg, Wordpress, Mailchimp, Text Editors, Maya, Z-Brush, Substance Painter, Final Cut Pro, Adobe Suite: Photoshop; Premiere; Audition, ProTools
+    <h2>Moderate:</h2>phpMyAdmin, Adobe Suite: Illustrator; After Effects; In Design
     </p>  
     </div>
     </div>

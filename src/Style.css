@@ -180,7 +180,7 @@ max-width:20em;
   margin: 0 auto;
   margin-left: 10%;
   margin-right: 40%;
-  padding-top:50px;
+  padding-top:130px;
   display: flex;
   flex-wrap: wrap;
   color: white; 
@@ -195,11 +195,14 @@ max-width:20em;
   }
 }
 
-
+h2{
+  padding-top:1em;
+}
 .SkillsTitle{
   
   text-decoration: underline;
   color:white;
+  font-size: 3em;
 }
 .SkillsParagraphText{
   color: white;
@@ -211,7 +214,7 @@ max-width:20em;
 .SoftwareTitle{
   color: white;
   text-decoration: underline;
-  
+  font-size: 3em;
 }
 .SoftwareParagraphText {
   color: white;
